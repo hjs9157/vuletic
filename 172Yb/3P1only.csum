@@ -1,0 +1,136 @@
+
+ There are 70 electrons in the cloud
+  in 152 relativistic CSFs
+  based on 51 relativistic subshells.
+
+The atomic number is  70.0000000000;
+ the mass of the nucleus is  3.133508438145D+05 electron masses;
+  Fermi nucleus:
+  c = 1.181530827849D-04 Bohr radii,
+  a = 9.890591370096D-06 Bohr radii;
+  there are 168 tabulation points in the nucleus.
+
+Speed of light =  1.370359991390D+02 atomic units.
+
+ To H (Dirac Coulomb) is added
+  H (Transverse) --- factor multiplying the photon frequency:  1.00000000D-06;
+  H (Vacuum Polarisation);
+  the total will be diagonalised.
+ Diagonal contributions from H (Self Energy) will be estimated
+  from a screened hydrogenic approximation.
+
+Radial grid: R(I) = RNT*(exp((I-1)*H)-1), I = 1, ..., N;
+
+ RNT  =  2.857142857143D-08 Bohr radii;
+ H    =  5.000000000000D-02 Bohr radii;
+ N    = 1990;
+ R(1) =  0.000000000000D+00 Bohr radii;
+ R(2) =  1.464888467886D-09 Bohr radii;
+ R(N) =  4.431167643576D+35 Bohr radii.
+
+ Subshell radial wavefunction summary:
+
+Subshell      e             p0     gamma     P(2)       Q(2)    MTP
+
+  1s   2.2677156038D+03  2.334D+03  1.00  3.419D-06 -1.549D-11  393
+  2s   3.8895580973D+02  8.677D+02  1.00  1.271D-06 -5.771D-12  402
+  2p-  3.7011868028D+02  5.091D+01  1.00  1.384D-12  2.920D-07  402
+  2p   3.3155079295D+02  1.138D+04  2.00  2.443D-14 -1.109D-19  407
+  3s   8.9772387783D+01  4.084D+02  1.00  5.983D-07 -2.718D-12  407
+  3p-  8.1485412996D+01  2.530D+01  1.00  6.882D-13  1.451D-07  411
+  3p   7.3157109499D+01  5.787D+03  2.00  1.242D-14 -5.641D-20  415
+  3d-  5.9255119132D+01  5.559D+01  2.00  4.430D-21  9.341D-16  405
+  3d   5.7453790260D+01  2.005D+04  3.00  6.302D-23 -2.863D-28  405
+  4s   1.8735315119D+01  1.982D+02  1.00  2.903D-07 -1.319D-12  412
+  4p-  1.5338629091D+01  1.211D+01  1.00  3.294D-13  6.945D-08  417
+  4p   1.3437068271D+01  2.769D+03  2.00  5.943D-15 -2.700D-20  421
+  4d-  7.8415288840D+00  2.690D+01  2.00  2.144D-21  4.521D-16  414
+  4d   7.4856631770D+00  9.673D+03  3.00  3.041D-23 -1.381D-28  415
+  5s   2.5021170872D+00  7.560D+01  1.00  1.107D-07 -5.031D-13  418
+  5p-  1.4834059354D+00  4.173D+00  1.00  1.135D-13  2.394D-08  423
+  5p   1.2460694929D+00  9.207D+02  2.00  1.976D-15 -8.976D-21  427
+  4f-  6.0291188107D-01  1.604D+01  3.00  2.809D-30  5.922D-25  417
+  4f   5.4426301438D-01  6.632D+03  4.00  3.054D-32 -1.387D-37  418
+  5d-  7.2720520448D-01  1.068D+01  2.00  8.520D-22  1.795D-16  408
+  5d   2.4853555331D-01  8.967D+02  3.00  2.819D-24 -1.280D-29  429
+  6s   2.4870680868D-01  2.032D+01  1.00  2.976D-08 -1.352D-13  426
+  6p-  1.1918871392D-01  7.012D-01  1.00  1.907D-14  4.021D-09  430
+  6p   9.5101013011D-02  1.252D+02  2.00  2.686D-16 -1.220D-21  432
+  5f-  2.1529148634D-02  2.098D-01  3.00  3.674D-32  7.745D-27  450
+  5f   2.3221792664D-01  6.998D+01  4.00  3.222D-34 -1.464D-39  438
+  6d-  7.6670742414D-02  1.826D+00  2.00  1.456D-22  3.068D-17  433
+  6d   2.8054565498D-01  2.879D+03  3.00  2.429D-24 -7.995D-27  441
+  7p-  7.7273748915D-02  1.489D+00  1.00  4.052D-14  8.541D-09  434
+  7p   1.8193720473D-01  1.996D+02  2.00  6.205D-16  8.179D-20  438
+  8s   2.8439352900D-01  6.969D+02  1.00  3.211D-08 -1.194D-11  445
+  5g-  2.0350503927D-02  1.745D-05  4.00  5.971D-45  1.258D-39  450
+  5g   4.3964270710D-01  3.628D-01  5.00  2.448D-45 -1.110D-50  437
+  6f-  1.4812069232D-02  1.764D-01  3.00  3.091D-32  6.514D-27  455
+  6f   4.4726135904D-01  1.157D+03  4.00  5.525D-33 -3.017D-36  449
+  6g-  1.4105547577D-02  1.850D-05  4.00  6.333D-45  1.335D-39  455
+  6g   7.9963998326D-01  2.258D+00  5.00  1.098D-43 -9.042D-48  445
+  7s   2.5813721320D-01  1.521D+02  1.00  2.760D-08 -2.800D-12  445
+  7d-  3.7641107436D-02  9.903D-01  2.00  7.897D-23  1.664D-17  443
+  7d   4.7588552227D-01  7.777D+02  3.00  9.888D-24  7.225D-28  451
+  7f-  1.0798903539D-02  1.474D-01  3.00  2.583D-32  5.444D-27  460
+  7f   4.5841724472D-01  1.329D+03  4.00  6.868D-33  1.043D-34  452
+  8p-  3.8455362778D-02  7.695D-01  1.00  2.094D-14  4.413D-09  443
+  8p   2.6294730484D-01  5.755D+02  2.00 -1.181D-16 -1.962D-18  443
+  8d-  2.2922742367D-02  6.740D-01  2.00  5.375D-23  1.133D-17  449
+  8d   4.2249360205D-01  4.997D+03  3.00 -8.159D-24 -1.132D-25  456
+  8f-  8.2163710165D-03  1.244D-01  3.00  2.179D-32  4.592D-27  464
+  8f   1.0072153897D+00  4.029D+03  4.00  1.286D-32 -6.168D-35  452
+  9s   8.2300871816D-01  1.116D+02  1.00 -5.702D-08 -6.842D-12  460
+  9p-  2.3336492462D-02  5.013D-01  1.00  1.364D-14  2.875D-09  449
+  9p   1.5636758730D-02  9.643D+02  2.00 -1.993D-15  7.669D-18  459
+
+           2  levels will be computed
+
+  Self Energy Corrections: 
+
+
+ Self-energy corrections estimated --- these will influence the data
+  in the RCI92 MIXing coefficients File.
+           0  (total           38 ) rows read from .res
+CUTOFF set to  1.0000000000D-12
+Dirac-Coulomb one-e radial integrals:     371
+One-e angular integrals that exceed CUTOFF:     3624
+Coulomb two-e radial integrals:        0
+Two-e angular integrals that exceed CUTOFF:      134596
+Transverse two-e radial integrals: 
+       0       0    2624     362   14635   10366
+MCBP coefficients that exceed CUTOFF:           531025
+Core coefficients that exceed CUTOFF:     1345
+Vacuum polarisation integrals:      371
+Elements that exceed CUTOFF in the lower triangle of the H matrix:        2964
+
+Average energy = -1.404346030200D+04 Hartrees.
+ LAPACK routine DSPEVX selected for eigenvalue problem.
+
+Eigenenergies:
+
+Level  J Parity       Hartrees              Kaysers                eV
+
+  1     1 -   -1.40441278573621D+04 -3.08232978440993D+09 -3.82160184412826D+05
+  2     1 -   -1.40440856274809D+04 -3.08232051602234D+09 -3.82159035279230D+05
+
+Energy of each level relative to immediately lower level:
+
+Level  J Parity       Hartrees              Kaysers                eV
+
+  2     1 -    4.22298811250599D-02  9.26838759272819D+03  1.14913359678826D+00
+
+Energy of each level relative to lowest level:
+
+Level  J Parity       Hartrees              Kaysers                eV
+
+  2     1 -    4.22298811250599D-02  9.26838759272819D+03  1.14913359678826D+00
+
+Weights of major contributors to ASF:
+
+Level J Parity      CSF contributions
+
+  1     1 -      0.83517   -0.48997   -0.17149    0.07932    0.07556
+                       2          1         51         58         52
+  2     1 -      0.80690    0.48261   -0.23112    0.15307   -0.12437
+                       1          2          5         66          8

@@ -1,0 +1,14 @@
+evalc('T_orbital = getOrbitals(''2S12'')');
+
+corestr = '1s(2)2s(2)2p(6)3s(2)3p(6)3d(10)4s(2)4p(6)4d(10)5s(2)5p(6)4f(14)';
+valencestr = '6s(1)';
+
+exp_orbital = '[spd-z]';
+
+% expression = ['(\d+)(',exp_orbital,')\((\d+)\)'];
+expression = ['(?<n>\d+)(?<l>',exp_orbital,')\((?<occupn>\d+)\)'];
+% core = regexp(corestr,expression,'tokens');
+core = regexp(corestr,expression,'names');
+% valence = regexp(valencestr,expression,'tokens');
+valence = regexp(valencestr,expression,'names');
+
