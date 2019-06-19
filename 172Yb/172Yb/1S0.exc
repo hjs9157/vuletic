@@ -1,0 +1,8 @@
+ u ! Orbital order
+           5  ! Selected core
+4f(14,c)6s(2,*)
+*
+7s,6p,5d,5f
+           0           0  ! Lower and higher 2*J
+           2  ! Number of excitations 
+n

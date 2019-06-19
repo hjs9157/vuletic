@@ -1,0 +1,5 @@
+y            ! Default settings
+1
+*
+1* 2* 3* 4* 5s 5p* 6s
+         100 ! Number of SCF cycles

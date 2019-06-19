@@ -1,0 +1,251 @@
+
+ There are 70 electrons in the cloud
+  in 731 relativistic CSFs
+  based on 25 relativistic subshells.
+
+The atomic number is  70.0000000000;
+ the mass of the nucleus is  3.133508438145D+05 electron masses;
+  Fermi nucleus:
+  c = 1.181530827849D-04 Bohr radii,
+  a = 9.890591370096D-06 Bohr radii;
+  there are 168 tabulation points in the nucleus.
+
+Speed of light =  1.370359991390D+02 atomic units.
+
+ To H (Dirac Coulomb) is added
+  H (Transverse) --- factor multiplying the photon frequency:  1.00000000D-06;
+  H (Vacuum Polarisation);
+  the total will be diagonalised.
+ Diagonal contributions from H (Self Energy) will be estimated
+  from a screened hydrogenic approximation.
+
+Radial grid: R(I) = RNT*(exp((I-1)*H)-1), I = 1, ..., N;
+
+ RNT  =  2.857142857143D-08 Bohr radii;
+ H    =  5.000000000000D-02 Bohr radii;
+ N    =  590;
+ R(1) =  0.000000000000D+00 Bohr radii;
+ R(2) =  1.464888467886D-09 Bohr radii;
+ R(N) =  1.761588423842D+05 Bohr radii.
+
+ Subshell radial wavefunction summary:
+
+Subshell      e             p0     gamma     P(2)       Q(2)    MTP
+
+  1s   2.2677011230D+03  2.334D+03  1.00  3.419D-06 -1.549D-11  390
+  2s   3.8894149377D+02  8.677D+02  1.00  1.271D-06 -5.771D-12  401
+  2p-  3.7010434363D+02  5.091D+01  1.00  1.384D-12  2.920D-07  404
+  2p   3.3153654466D+02  1.138D+04  2.00  2.443D-14 -1.109D-19  406
+  3s   8.9758338165D+01  4.084D+02  1.00  5.983D-07 -2.718D-12  406
+  3p-  8.1471396105D+01  2.530D+01  1.00  6.882D-13  1.451D-07  409
+  3p   7.3143168364D+01  5.787D+03  2.00  1.242D-14 -5.641D-20  411
+  3d-  5.9241099768D+01  5.559D+01  2.00  4.430D-21  9.341D-16  408
+  3d   5.7439778708D+01  2.005D+04  3.00  6.302D-23 -2.863D-28  409
+  4s   1.8720874379D+01  1.982D+02  1.00  2.903D-07 -1.319D-12  411
+  4p-  1.5324222429D+01  1.211D+01  1.00  3.294D-13  6.945D-08  412
+  4p   1.3422701761D+01  2.769D+03  2.00  5.943D-15 -2.700D-20  413
+  4d-  7.8269369697D+00  2.690D+01  2.00  2.144D-21  4.521D-16  413
+  4d   7.4710078232D+00  9.673D+03  3.00  3.041D-23 -1.381D-28  414
+  5s   2.4866492141D+00  7.558D+01  1.00  1.107D-07 -5.030D-13  417
+  5p-  1.4680166281D+00  4.175D+00  1.00  1.136D-13  2.394D-08  422
+  5p   1.2311765786D+00  9.216D+02  2.00  1.978D-15 -8.985D-21  423
+  4f-  5.8769502138D-01  1.604D+01  3.00  2.809D-30  5.923D-25  416
+  4f   5.2879570598D-01  6.631D+03  4.00  3.054D-32 -1.387D-37  416
+  5d-  2.5109784271D-01  2.564D+00  2.00  2.044D-22  4.309D-17  425
+  5d   2.5543310025D-01  8.925D+02  3.00  2.806D-24 -1.275D-29  425
+  6s   2.5909805935D-01  1.967D+01  1.00  2.800D-08 -4.304D-11  423
+  6p-  1.4892277021D-01  8.047D-01  1.00  2.189D-14  4.615D-09  427
+  6p   1.3872261451D-01  1.844D+02  2.00  3.956D-16 -1.797D-21  428
+  7s   2.8831635188D-01  3.144D+02  1.00  2.734D-08 -1.047D-09  426
+
+ 0 levels will be computed;
+  their indices are: 
+
+  Self Energy Corrections: 
+
+
+ Self-energy corrections estimated --- these will influence the data
+  in the RCI92 MIXing coefficients File.
+           0  (total           36 ) rows read from .res
+CUTOFF set to  1.0000000000D-12
+Dirac-Coulomb one-e radial integrals:      26
+One-e angular integrals that exceed CUTOFF:      787
+Coulomb two-e radial integrals:        0
+Two-e angular integrals that exceed CUTOFF:    21367
+Transverse two-e radial integrals: 
+       0       0      62      78    1504     854
+MCBP coefficients that exceed CUTOFF:    39407
+Core coefficients that exceed CUTOFF:      974
+Vacuum polarisation integrals:       26
+Elements that exceed CUTOFF in the lower triangle of the H matrix:      390
+Density of the H(amiltonian) matrix:  5.855855855855856D-01
+
+Average energy = -1.404310895547D+04 Hartrees.
+  -14043.108955471262        14.034861713105405               36
+ LAPACK routine DSPEVX selected for eigenvalue problem.
+
+Eigenenergies:
+
+Level  J Parity       Hartrees              Kaysers                eV
+
+  1     0 -   -1.40441305822273D+04 -3.08233038244873D+09 -3.82160258560186D+05
+
+Weights of major contributors to ASF:
+
+Level J Parity      CSF contributions
+
+  1     0 -      0.98756   -0.14783   -0.03474    0.02966    0.02228
+                       1          3          4         13         14
+
+  Self Energy Corrections: 
+
+
+ Self-energy corrections estimated --- these will influence the data
+  in the RCI92 MIXing coefficients File.
+           0  (total          106 ) rows read from .res
+CUTOFF set to  1.0000000000D-12
+Dirac-Coulomb one-e radial integrals:      26
+One-e angular integrals that exceed CUTOFF:     2321
+Coulomb two-e radial integrals:        0
+Two-e angular integrals that exceed CUTOFF:    66978
+Transverse two-e radial integrals: 
+       0       0      88      80    1509     856
+MCBP coefficients that exceed CUTOFF:   147497
+Core coefficients that exceed CUTOFF:      974
+Vacuum polarisation integrals:       26
+Elements that exceed CUTOFF in the lower triangle of the H matrix:     2644
+Density of the H(amiltonian) matrix:  4.662317051666373D-01
+
+Average energy = -1.404306877973D+04 Hartrees.
+  -14043.068779730911        14.034861713105405              106
+ LAPACK routine DSPEVX selected for eigenvalue problem.
+
+Eigenenergies:
+
+Level  J Parity       Hartrees              Kaysers                eV
+
+  1     1 -   -1.40441274524872D+04 -3.08232969555017D+09 -3.82160173395620D+05
+  2     1 -   -1.40440816383893D+04 -3.08231964051792D+09 -3.82158926730517D+05
+
+Energy of each level relative to immediately lower level:
+
+Level  J Parity       Hartrees              Kaysers                eV
+
+  2     1 -    4.58140978828130D-02  1.00550322443868D+04  1.24666510255566D+00
+
+Energy of each level relative to lowest level:
+
+Level  J Parity       Hartrees              Kaysers                eV
+
+  2     1 -    4.58140978828130D-02  1.00550322443868D+04  1.24666510255566D+00
+
+Weights of major contributors to ASF:
+
+Level J Parity      CSF contributions
+
+  1     1 -      0.84409   -0.51042    0.11542   -0.08713    0.05703
+                       2          1          7          8          6
+  2     1 -      0.78408    0.45537   -0.31086   -0.24914    0.09550
+                       1          2          6          8          7
+
+  Self Energy Corrections: 
+
+
+ Self-energy corrections estimated --- these will influence the data
+  in the RCI92 MIXing coefficients File.
+           0  (total          150 ) rows read from .res
+CUTOFF set to  1.0000000000D-12
+Dirac-Coulomb one-e radial integrals:      26
+One-e angular integrals that exceed CUTOFF:     3284
+Coulomb two-e radial integrals:        0
+Two-e angular integrals that exceed CUTOFF:    98657
+Transverse two-e radial integrals: 
+       0       0      91      80    1510     856
+MCBP coefficients that exceed CUTOFF:   239853
+Core coefficients that exceed CUTOFF:      974
+Vacuum polarisation integrals:       26
+Elements that exceed CUTOFF in the lower triangle of the H matrix:     5080
+Density of the H(amiltonian) matrix:  4.485651214128035D-01
+
+Average energy = -1.404305335412D+04 Hartrees.
+  -14043.053354121170        14.034861713105405              150
+ LAPACK routine DSPEVX selected for eigenvalue problem.
+
+Eigenenergies:
+
+Level  J Parity       Hartrees              Kaysers                eV
+
+  1     2 -   -1.40441204625695D+04 -3.08232816144057D+09 -3.82159983190272D+05
+
+Weights of major contributors to ASF:
+
+Level J Parity      CSF contributions
+
+  1     2 -      0.98656   -0.11503    0.09456    0.04194    0.03309
+                       1          7          6          8         10
+
+  Self Energy Corrections: 
+
+
+ Self-energy corrections estimated --- these will influence the data
+  in the RCI92 MIXing coefficients File.
+           0  (total          162 ) rows read from .res
+CUTOFF set to  1.0000000000D-12
+Dirac-Coulomb one-e radial integrals:      26
+One-e angular integrals that exceed CUTOFF:     3550
+Coulomb two-e radial integrals:        0
+Two-e angular integrals that exceed CUTOFF:   109013
+Transverse two-e radial integrals: 
+       0       0      93      80    1510     856
+MCBP coefficients that exceed CUTOFF:   276909
+Core coefficients that exceed CUTOFF:      974
+Vacuum polarisation integrals:       26
+Elements that exceed CUTOFF in the lower triangle of the H matrix:     6115
+Density of the H(amiltonian) matrix:  4.631523138680603D-01
+
+Average energy = -1.404301787601D+04 Hartrees.
+  -14043.017876012480        14.034861713105405              162
+
+  Self Energy Corrections: 
+
+
+ Self-energy corrections estimated --- these will influence the data
+  in the RCI92 MIXing coefficients File.
+           0  (total          153 ) rows read from .res
+CUTOFF set to  1.0000000000D-12
+Dirac-Coulomb one-e radial integrals:      26
+One-e angular integrals that exceed CUTOFF:     3355
+Coulomb two-e radial integrals:        0
+Two-e angular integrals that exceed CUTOFF:   102957
+Transverse two-e radial integrals: 
+       0       0      93      80    1510     856
+MCBP coefficients that exceed CUTOFF:   259369
+Core coefficients that exceed CUTOFF:      974
+Vacuum polarisation integrals:       26
+Elements that exceed CUTOFF in the lower triangle of the H matrix:     5576
+Density of the H(amiltonian) matrix:  4.733044733044733D-01
+
+Average energy = -1.404302028699D+04 Hartrees.
+  -14043.020286991745        14.034861713105405              153
+
+  Self Energy Corrections: 
+
+
+ Self-energy corrections estimated --- these will influence the data
+  in the RCI92 MIXing coefficients File.
+           0  (total          124 ) rows read from .res
+CUTOFF set to  1.0000000000D-12
+Dirac-Coulomb one-e radial integrals:      26
+One-e angular integrals that exceed CUTOFF:     2721
+Coulomb two-e radial integrals:        0
+Two-e angular integrals that exceed CUTOFF:    82129
+Transverse two-e radial integrals: 
+       0       0      93      80    1510     856
+MCBP coefficients that exceed CUTOFF:   196973
+Core coefficients that exceed CUTOFF:      974
+Vacuum polarisation integrals:       26
+Elements that exceed CUTOFF in the lower triangle of the H matrix:     3910
+Density of the H(amiltonian) matrix:  5.045161290322581D-01
+
+Average energy = -1.404300029111D+04 Hartrees.
+  -14043.000291113716        14.034861713105405              124

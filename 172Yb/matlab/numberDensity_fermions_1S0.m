@@ -1,6 +1,6 @@
 
-% stateID = '1S0';
-stateID = '1P1';
+stateID = '1S0';
+% stateID = '1P1';
 % DHForCI = 'DHF';
 DHForCI = 'CI';
 
@@ -21,7 +21,7 @@ ND_valence = ND_pop + ND_corr;
 legendstr = {};
 h = gobjects(0);
 ND_fig = figure; hold on;
-h(end+1) = plot(R,ND,'k-'); legendstr{end+1} = 'Total';
+h(end+1) = plot(R,ND./R.^2,'k-'); legendstr{end+1} = 'Total';
 h(end+1) = plot(R,ND_valence,'r--'); legendstr{end+1} = 'valence';
 h(end+1) = plot(R,ND_core,'b--'); legendstr{end+1} = 'core';
 h(end+1) = plot(R,ND_pop,':'); legendstr{end+1} = 'pop';
